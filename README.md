@@ -1,12 +1,11 @@
-# Hibernate - simple configuration - STAGE - 1
+# Hibernate - simple configuration - STAGE - 2
 
-When you want to connect to database, you need database. So you need to install and run or only run database engine. For simplicity i choose h2 database engine. 
+Ok, so now we are done with db for a moment.
 
-1. Download h2 database [here](http://www.h2database.com/html/download.html) (I recomend platform-independent zip file)
+Now we want to create java maven project to connect programmatically to our db.
 
-2. Start database in server mode. You need to remember your credidentials to this db :)
-
-3. If you can log in to your db in server mode you are done with this stage, please `git checkout stage-2`
-
+1. Add maven support for this project
+2. Import dependencies for hibernate and h2 
+3. Try to build and run empty project
 
 
