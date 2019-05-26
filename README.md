@@ -1,11 +1,13 @@
-# Hibernate - simple configuration - STAGE - 2
+# Hibernate - simple configuration - STAGE - 3
 
-Ok, so now we are done with db for a moment.
+Maven project is ready, so we need to code something. 
 
-Now we want to create java maven project to connect programmatically to our db.
+First we need class which will be represented as a table in our db. Instance of this kinde of class is called POJO ( Plain Old Java Object )
 
-1. Add maven support for this project
-2. Import dependencies for hibernate and h2 
-3. Try to build and run empty project
+1. Create: Person class
+2. Every person must have pesel, name, surname and age. (pesel will be an id of the person)
+3. Create 2 constructors, first with all parameters and second empty
+4. Create getters and setters for all fields in your class.
+
 
 
